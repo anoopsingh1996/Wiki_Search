@@ -24,5 +24,12 @@ The ```<Form />``` class component renders the form which is allows the user to 
   
 ## Run it Locally
 
-``` git clone repo_url ```
-``` cd 
+``` git clone https://github.com/anoopsingh1996/Wiki_Search.git ```
+
+``` cd  Wiki_Search ```
+
+``` npm install ```
+
+``` npm start ```
+
+Go http://localhost:3000 in browsers
