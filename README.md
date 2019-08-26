@@ -2,7 +2,7 @@
 Wiki search in reactJs based on wiki opensearch api
 
 ## Components
-This React.js application contains a total of 4 components, 2 of which are class components.
+This React.js application contains a total of 5 components, 2 of which are class components.
 
 1. **Query**
 
