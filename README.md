@@ -21,4 +21,15 @@ The ```<Form />``` class component renders the form which is allows the user to 
 &nbsp;```<Search />``` is the parent component and it is used to manage the relationship between all other components listed above. It renders all the other components and manages the state of the data received from the API.
 
 5. **Login**
+  
+## Run it Locally
 
+``` git clone https://github.com/anoopsingh1996/Wiki_Search.git ```
+
+``` cd  Wiki_Search ```
+
+``` npm install ```
+
+``` npm start ```
+
+Go http://localhost:3000 in browsers
