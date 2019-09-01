@@ -33,6 +33,10 @@ logout = () => {
   localStorage.setItem('username',undefined );
   localStorage.setItem('password',undefined );
 }
+result = () => {
+  console.log(this.state.data);
+    localStorage.setItem('me', JSON.stringify(this.state.data));
+}
   render() {
     return (
     <div>
@@ -45,6 +49,9 @@ logout = () => {
       </Navbar.Header>
       <Navbar.Collapse>
       <Nav pullRight>
+        <NavItem eventKey={2} componentClass={Link} href="/" to="/result" onClick={this.result}>
+          Result
+        </NavItem>
         <NavItem eventKey={1} componentClass={Link} href="/" to="/" onClick={this.logout}>
           Logout
         </NavItem>
